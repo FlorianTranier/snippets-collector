@@ -41,10 +41,12 @@ export default {
   flex-direction: column;
   justify-content: normal;
   padding: 0.5rem 2rem;
+  transition: all 0.15s;
 
   &:hover {
     box-shadow: 0 5px 5px $text-primary, 0 0 5px $text-primary;
     cursor: pointer;
+    transform: scale(1.03);
   }
 }
 

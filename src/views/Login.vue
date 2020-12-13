@@ -40,7 +40,6 @@ export default {
 }
 
 .container {
-  padding: 0 20vw;
   display: flex;
   align-items: center;
   flex-direction: column;

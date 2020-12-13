@@ -3,11 +3,10 @@
   <Hero />
   <div class="container">
     <SnippetCardStack :snippets="toDisplaySnippets" :title="'Latest snippets'"/>
-    <div v-if="!hideSeeMoreBtn">
+    <div v-if="!hideSeeMoreBtn" class="seemore-wrapper">
       <div class="btn-seemore" @click="seeMore" v-if="!hideSeeMoreBtn">See More !</div>
     </div>
   </div>
-
 </div>
 </template>
 
@@ -47,15 +46,18 @@ export default {
 
 <style scoped lang="scss">
 @import "src/scss/variables";
+.seemore-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .btn-seemore {
-  display: block;
+  display: inline-block;
   text-align: center;
   background-color: $text-primary;
   color: $bg-primary;
   font-size: 1.2rem;
-  padding: 0.5rem;
-  margin: auto;
-  width: 10vw;
+  padding: 0.5rem 1rem;
 }
 
 .btn-seemore:hover {

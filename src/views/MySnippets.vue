@@ -43,9 +43,6 @@ export default {
 
 <style lang="scss" scoped>
 @import "src/scss/variables";
-.container {
-  padding: 0 20vw;
-}
 
 #switch-view-buttons {
   display: flex;

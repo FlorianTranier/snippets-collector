@@ -40,7 +40,6 @@ export default {
   }
 
   .title {
-    width: 90vw;
     margin: 0;
     padding-bottom: 1rem;
     color: $text-secondary;
