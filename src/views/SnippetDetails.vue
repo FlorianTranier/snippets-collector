@@ -55,7 +55,6 @@ export default {
 @import "src/scss/variables";
   .container {
     font-size: 1.5rem;
-    padding: 0 20vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
